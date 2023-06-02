@@ -1,0 +1,33 @@
+import React from 'react'
+
+function Singup() {
+  return (
+    <div className='log sign'>
+      <h1>Signup</h1>
+      <div className='signup'>
+        <form className='signup-form'>
+          <input className='inputs' type='text' placeholder='Enter your name'/>
+          <input className='inputs' type='email' placeholder='Enter your email'/>
+          <input className='inputs' type='password' placeholder='Set your password'/>
+          <input className='inputs' type='password' placeholder='Confirm password'/>
+          <button className='btn' type='submit'>Submit</button>
+        </form>
+        <div className='column'>
+          <div className='v1'></div>
+          <span>or</span>
+          <div className='v2'></div>
+        </div>
+        <div className='other-option'>          
+        <h2>Signup with</h2>
+        <div>
+          <a target='_blank'><i className="fa-brands fa-facebook"></i>acebook</a>
+          <a target='_blank'><i className="fa-brands fa-instagram"></i>Instagram</a>
+          <a target='_blank'><i className="fa-brands fa-google"></i>oogle</a>
+        </div>
+        </div>
+      </div>    
+    </div>
+  )
+}
+
+export default Singup

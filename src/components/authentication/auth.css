@@ -1,35 +1,101 @@
 *{
     margin: 0;
     padding: 0;
+    color: #fff;
 }
+
+h1{
+    font-size: 55px;
+    margin: 15px 0;
+}
+
 
 .log{
     display: flex;
+    flex-direction: column;
     min-height: 100vh;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(to right, #f23412, #f5ac18);
 }
 
-.login-form {
+.noAccount a{
+    color: #832029;
+    text-decoration: none;
+}
+
+.inputs{
+    height: 40px;
+    width: 220px;
+    font-size: 17px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    color: #832029;
+    padding-left: 10px;
+    background: rgba(266, 266, 266, 0.6);
+}
+
+input::placeholder{
+    color: rgb(99, 95, 95);
+    padding-left: 10px;
+}
+
+.login-other{
+    margin-bottom: 20px;
+}
+
+.login-other span{
+    display: block;
+    font-size: 16px;
+    margin-bottom: 17px;
+    margin-left: 40px;
+}
+
+.login-other a{
+    padding: 8px;
+    margin: 10px;
+}
+
+.login-other i{
+    font-size: 28px;
+    color: antiquewhite;
+    transition: color .5s;
+}
+
+.login-other i:hover{    
+    color: #832029;
+}
+
+.signup{
+    display: flex;
+}
+
+.sign h1{
+    margin: 50px 0;
+    margin-left: 90px;
+}
+
+.btn{
+    background-color: #832029;
+    font-size: 15px;
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 60px;
+    transition: background .6s;
+}
+
+.btn:hover{
+    background-color: #632026;
+}
+
+.signup-form, .login-form {
     font-size: 20px;
     display: flex;
     flex-direction: column;
     margin: 0 30px;
-}
-
-.inputs{
-    height: 30px;
-    width: 200px;
-    font-size: 15px;
-    margin: 10px 0;
-    border: none;
-    border-bottom: 2px solid rgb(71, 215, 191);
-    color: #1e476b;
-}
-
-.log span{
-    font-size: 25px;
-    margin-left: -7px;
 }
 
 .v1, .v2{
@@ -38,6 +104,36 @@
     background-color: rgb(34, 33, 33);
 }
 
+.column{
+    margin: 0 90px;
+}
+
+.column span{
+    display: block;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: -10px;
+}
+
 .other-option{
     margin: 0 30px;
+}
+
+.other-option div{
+    display: flex;
+    flex-direction: column;
+}
+
+.other-option div a{
+    font-size: 26px;
+    margin: 15px 0;
+}
+
+.other-option div i{
+    margin: 0 3px;
+    transition: color .6s;
+}
+
+.other-option div a:hover i{
+    color: #832029;
 }
