@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+#body{
+    background: linear-gradient(to right, #1e6be7 5%, #242f6e);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+#body h1{
+    font-size: 55px;
+    margin: 30px 0;
+    color: #fff;
+}
+
+#body .landBTN{
+    background-color: #ff6496;
+    height: 50px;
+    width: 120px;
+    font-size: 17px;
+    margin: 0 25px;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+}
+
+#body span{
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+}

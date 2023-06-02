@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.log{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px;
+}
+
+.inputs{
+    height: 30px;
+    width: 200px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid rgb(71, 215, 191);
+    color: #1e476b;
+}
+
+.log span{
+    font-size: 25px;
+    margin-left: -7px;
+}
+
+.v1, .v2{
+    height: 150px;
+    width: 6px;
+    background-color: rgb(34, 33, 33);
+}
+
+.other-option{
+    margin: 0 30px;
+}
