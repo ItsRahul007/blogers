@@ -20,9 +20,9 @@ function Singup() {
         <div className='other-option'>          
         <h2>Signup with</h2>
         <div>
-          <a target='_blank'><i className="fa-brands fa-facebook"></i>acebook</a>
-          <a target='_blank'><i className="fa-brands fa-instagram"></i>Instagram</a>
-          <a target='_blank'><i className="fa-brands fa-google"></i>oogle</a>
+          <a href="/" target='_blank'><i className="fa-brands fa-facebook"></i>acebook</a>
+          <a href="/" target='_blank'><i className="fa-brands fa-instagram"></i>Instagram</a>
+          <a href="/" target='_blank'><i className="fa-brands fa-google"></i>oogle</a>
         </div>
         </div>
       </div>    

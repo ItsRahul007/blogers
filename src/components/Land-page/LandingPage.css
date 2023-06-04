@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    color: black;
 }
 
 #body{
@@ -20,15 +19,21 @@
     color: #fff;
 }
 
+#body p{
+    width: 500px;
+    margin-bottom: 20px;
+}
+
 #body .landBTN{
+    text-decoration: none;
     background-color: #ff6496;
-    height: 50px;
-    width: 120px;
     font-size: 17px;
     margin: 0 25px;
     border: none;
     border-radius: 30px;
     color: #fff;
+    padding: 12px;
+    text-align: center;
 }
 
 #body span{

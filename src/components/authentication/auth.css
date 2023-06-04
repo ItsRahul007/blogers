@@ -1,12 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-    color: #fff;
 }
 
 h1{
     font-size: 55px;
     margin: 15px 0;
+    color: #fff;
 }
 
 
@@ -17,6 +17,10 @@ h1{
     justify-content: center;
     align-items: center;
     background: linear-gradient(to right, #f23412, #f5ac18);
+}
+
+.noAccount{
+    color: #fff;
 }
 
 .noAccount a{
@@ -32,24 +36,25 @@ h1{
     border: none;
     border-radius: 5px;
     color: #832029;
-    padding-left: 10px;
+    padding-left: 20px;
     background: rgba(266, 266, 266, 0.6);
 }
 
 input::placeholder{
     color: rgb(99, 95, 95);
-    padding-left: 10px;
 }
 
 .login-other{
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .login-other span{
     display: block;
     font-size: 16px;
     margin-bottom: 17px;
-    margin-left: 40px;
+    margin-right: 10px;
+    color: #fff;
 }
 
 .login-other a{
@@ -69,6 +74,7 @@ input::placeholder{
 
 .signup{
     display: flex;
+    color: #fff;
 }
 
 .sign h1{
@@ -85,6 +91,7 @@ input::placeholder{
     border-radius: 5px;
     margin: 10px 60px;
     transition: background .6s;
+    color: #fff;
 }
 
 .btn:hover{
@@ -119,6 +126,11 @@ input::placeholder{
     margin: 0 30px;
 }
 
+.other-option h2{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
 .other-option div{
     display: flex;
     flex-direction: column;
@@ -127,11 +139,14 @@ input::placeholder{
 .other-option div a{
     font-size: 26px;
     margin: 15px 0;
+    color: #fff;
+    text-decoration: none;
 }
 
 .other-option div i{
     margin: 0 3px;
     transition: color .6s;
+    color: #fff;
 }
 
 .other-option div a:hover i{
