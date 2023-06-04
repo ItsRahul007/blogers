@@ -8,7 +8,7 @@ function Navbar() {
     <>
       <nav className='nav'>
         <div className='nav-icon'>
-          <img src={blog_icon} alt='Blogers'/>
+          <Link to="/"><img src={blog_icon} alt='Blogers'/></Link>
         </div>
         <ul>
           <li><Link to="/">Home</Link></li>

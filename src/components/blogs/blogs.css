@@ -1,3 +1,65 @@
+/* -------------------------- Blog Navbar--------------------------------- */
+.blogNav{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #b6aeae;
+}
+
+.blogNav > div a{
+    margin: 0 -60px;
+}
+
+.blogNav ul{
+    display: flex;
+}
+
+.blogNav ul li{
+    list-style: none;
+    margin: 0 10px;
+}
+
+.blogNav ul li button{
+    background: transparent;
+    border: none;
+    font-size: 17px;
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    transition: background .5s;
+}
+
+.blogNav ul li button:hover{
+    background-color: white;
+}
+
+.blogNav .search input{
+    height: 35px;
+    width: 160px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding-left: 10px;
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+.blogNav .search button{
+    font-size: 16px;
+    height: 30px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background: transparent;
+    transition: ease .5s;
+}
+
+.blogNav .search button:hover{
+    background-color: black;
+    color: white;
+}
+
+/* -------------------------- Wright blog --------------------------------- */
 .blog{
     min-height: 100vh;
     background-color: rgb(167, 176, 183);
@@ -55,4 +117,9 @@
     background-color: black;
     border: 2px solid black;    
     color: white;
+}
+
+/* ------------------------------------ view blog ----------------------------------- */
+.ViewBlog{
+    min-height: 100vh;
 }
