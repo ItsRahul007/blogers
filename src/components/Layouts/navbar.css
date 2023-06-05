@@ -51,8 +51,9 @@
     background-color: #3722cbc7;
     text-decoration: none;
     padding: 10px;
+    padding-top: 8px;
     color: white;
-    border-radius: 14px;
+    border-radius: 10px;
 }
 
 .login-signup a:hover{

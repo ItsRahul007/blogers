@@ -5,22 +5,24 @@ import Signup from "./components/authentication/Signup";
 import Wrightblog from "./components/blogs/WrightBlog";
 import ViewBlog from "./components/blogs/ViewBlog";
 import Navbar from "./components/Layouts/Navbar";
-import BlogItem from "./components/blogs/BlogItem";
+import Contact from "./components/home/Contact";
+import About from "./components/home/About";
 
 
 function App() {
   const location = useLocation().pathname;
-  console.log(location)
   return (
     <>
       {location!=="/Viewblog"&&<Navbar/>}
+      {location==="/Contact"&&<Navbar black="black"/>}
       <Routes>
         <Route path="/" element={<LandingPage/>}/>
+        <Route path="/Contact" element={<Contact/>}/>
+        <Route path="/About" element={<About/>}/>
         <Route path="/Login" element={<Login/>}/>
         <Route path="/Signup" element={<Signup/>}/>
         <Route path="/Viewblog" element={<ViewBlog/>}/>
         <Route path="/Wrightblog" element={<Wrightblog/>}/>
-        <Route path="/BlogItem" element={<BlogItem/>}/>
       </Routes>
     </>
   );
