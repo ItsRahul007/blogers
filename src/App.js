@@ -6,7 +6,6 @@ import Wrightblog from "./components/blogs/WrightBlog";
 import ViewBlog from "./components/blogs/ViewBlog";
 import Navbar from "./components/Layouts/Navbar";
 import Contact from "./components/home/Contact";
-import About from "./components/home/About";
 
 
 function App() {
@@ -18,7 +17,6 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage/>}/>
         <Route path="/Contact" element={<Contact/>}/>
-        <Route path="/About" element={<About/>}/>
         <Route path="/Login" element={<Login/>}/>
         <Route path="/Signup" element={<Signup/>}/>
         <Route path="/Viewblog" element={<ViewBlog/>}/>

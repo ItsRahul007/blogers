@@ -11,7 +11,7 @@ function LandingPage() {
         <div>
           <Link className='landBTN' to="/Login">Wright Blogs</Link>
           <span>or</span>
-          <Link className='landBTN' to="/viewblog">Read Blogs</Link>
+          <Link className='landBTN' to="/Viewblog">Read Blogs</Link>
         </div>
       </div>    
     </>

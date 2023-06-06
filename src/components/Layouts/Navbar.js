@@ -12,7 +12,6 @@ function Navbar({black}) {
         </div>
         <ul>
           <li><Link style={{color:black}} to="/">Home</Link></li>
-          <li><Link style={{color:black}} to="/About">About</Link></li>
           <li><Link style={{color:black}} to="/Viewblog">Blogs</Link></li>
           <li><Link style={{color:black}} to="/Wrightblog">Start blogging</Link></li>
           <li><Link style={{color:black}} to="/Contact">Contact</Link></li>
