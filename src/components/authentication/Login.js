@@ -10,7 +10,7 @@ function Login() {
         <form className='login-form'>
           <input className='inputs' type='email' placeholder='Enter your email'/>
           <input className='inputs' type='password' placeholder='Set your password'/>
-          <button className='btn' type='submit'>Login</button>
+          <button className='btnn' type='submit'>Login</button>
         </form>
         <div className='login-other'>
           <span>or login with</span>

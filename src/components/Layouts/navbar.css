@@ -54,6 +54,7 @@
     padding-top: 8px;
     color: white;
     border-radius: 10px;
+    transition: background .5s;
 }
 
 .login-signup a:hover{

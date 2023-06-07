@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 import blog_icon from "../../images/blog_icon.png";
 
 function BlogNav({filterBlog}) {
-  const [filter, setFilter] = useState()
+  const [filter, setFilter] = useState("")
 
   function handleSearch(){
     filterBlog(filter);
-  }
+  };
 
   return (
     <nav className='blogNav'>
@@ -21,7 +21,9 @@ function BlogNav({filterBlog}) {
         <li><button onClick={()=>filterBlog("politics")}>Politics</button></li>
       </ul>
       <div className='search'>
-        <input type='text' placeholder='Blog category' onChange={e => setFilter(e.target.value)} />
+        <input type='text' placeholder='Blog category' onChange={e => {
+            setFilter(e.target.value)
+          }} />
         <button onClick={handleSearch}>Search</button>
       </div>
     </nav>

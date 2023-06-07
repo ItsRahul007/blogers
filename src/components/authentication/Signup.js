@@ -10,7 +10,7 @@ function Singup() {
           <input className='inputs' type='email' placeholder='Enter your email'/>
           <input className='inputs' type='password' placeholder='Set your password'/>
           <input className='inputs' type='password' placeholder='Confirm password'/>
-          <button className='btn' type='submit'>Submit</button>
+          <button className='btnn' type='submit'>Submit</button>
         </form>
         <div className='column'>
           <div className='v1'></div>
