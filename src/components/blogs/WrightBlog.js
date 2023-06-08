@@ -15,7 +15,7 @@ function WrightBlog() {
     // on changing setting the value
     function onChange(e){
         setValue({...value, [e.target.name]: e.target.value});
-        setNewBlog({...value, blog: content, id: num})
+        setNewBlog({...value, blog: content, id: num});
     };
 
     // adding the new blog

@@ -1,6 +1,8 @@
 import React, {useState} from 'react'
 import BlogContext from './BlogContext'
 
+
+// sample blogs
 const theBlog = [
     {
         id: "1",
@@ -78,7 +80,7 @@ function BlogState(props) {
     const [blogs, setBlogs] = useState(theBlog);
     const [fullBlog, setFullBlog] = useState({})
 
-    // concat the blog array with a new blog and new blog must be an object
+    // Concat the blog array with a new blog and new blog must be an object
     function addBlog(newBlog){
         setBlogs(blogs.concat(newBlog));
     };

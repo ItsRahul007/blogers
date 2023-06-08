@@ -9,7 +9,7 @@ function LandingPage() {
         <h1>Welcome to The Blogers</h1>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos neque error amet voluptas rerum, ea qui vero et numquam nisi cupiditate, reiciendis doloribus quaerat ratione soluta repellat dolorem vitae modi quos pariatur!</p>
         <div>
-          <Link className='landBTN' to="/Login">Wright Blogs</Link>
+          <Link className='landBTN' to="/Wrightblog">Wright Blogs</Link>
           <span>or</span>
           <Link className='landBTN' to="/Viewblog">Read Blogs</Link>
         </div>

@@ -5,6 +5,7 @@ import blog_icon from "../../images/blog_icon.png";
 function BlogNav({filterBlog}) {
   const [filter, setFilter] = useState("")
 
+  // filtering blog with the click or search value
   function handleSearch(){
     filterBlog(filter);
   };
